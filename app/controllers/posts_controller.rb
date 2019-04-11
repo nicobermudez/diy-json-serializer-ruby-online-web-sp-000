@@ -5,6 +5,9 @@ class PostsController < ApplicationController
     @posts = Post.all
   end
 
+  def body
+  end
+
   def show
   end
 
