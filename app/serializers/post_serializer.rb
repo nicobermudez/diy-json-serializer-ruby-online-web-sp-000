@@ -1,2 +1,2 @@
-class PostSerializer 
+class PostSerializer
 end
