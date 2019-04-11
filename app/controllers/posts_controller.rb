@@ -6,6 +6,7 @@ class PostsController < ApplicationController
   end
 
   def body
+    post = Post.find(params[:id])
   end
 
   def show
