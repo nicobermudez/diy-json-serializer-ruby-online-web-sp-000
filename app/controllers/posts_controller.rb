@@ -10,7 +10,7 @@ class PostsController < ApplicationController
     render json: PostSerializer.serialize(post)
   end
 
-  def post_data 
+  def post_data
   end
   def show
   end
