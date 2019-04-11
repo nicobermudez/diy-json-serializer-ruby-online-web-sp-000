@@ -11,6 +11,7 @@ class PostsController < ApplicationController
   end
 
   def post_data
+    post = Post.find(params[:id])
   end
   def show
   end
